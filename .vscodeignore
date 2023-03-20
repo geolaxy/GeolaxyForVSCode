@@ -1,0 +1,16 @@
+.vscode/
+.vscode-test/
+test/
+.gitignore
+*.vsix
+jsconfig.json
+vsc-extension-quickstart.md
+.eslintrc.json
+.debug
+.rsync.json
+webpack.config.js
+extension.js
+node_modules/
+src/
+.ide/
+.gitmodules

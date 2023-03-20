@@ -1,0 +1,54 @@
+// A launch configuration that launches the extension inside a new window
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "Launch Extension",
+            "type": "extensionHost",
+            "request": "launch",
+            "runtimeExecutable": "${execPath}",
+            "args": [
+                "--extensionDevelopmentPath=${workspaceRoot}"
+            ],
+            "outFiles":[
+                "${workspaceFolder}/dist/**/*.js"
+            ],
+            "stopOnEntry": false,
+            "smartStep": true,
+            "skipFiles": [
+                "${workspaceRoot}/node_modules/**/*",
+                "**/extensions/**",
+                "**/node_modules/**",
+                "<node_internals>/**/*"
+            ]
+        },
+        {
+            "name": "Launch Extension (Solo)",
+            "type": "extensionHost",
+            "request": "launch",
+            "runtimeExecutable": "${execPath}",
+            "args": [
+                "--disable-extensions",
+                "--extensionDevelopmentPath=${workspaceRoot}"
+            ],
+            "stopOnEntry": false,
+            "smartStep": true,
+            "skipFiles": [
+                "${workspaceRoot}/node_modules/**/*",
+                "**/extensions/**",
+                "**/node_modules/**",
+                "<node_internals>/**/*"
+            ]
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Mocha Tests",
+            "program": "${workspaceFolder}/node_modules/mocha/bin/_mocha",
+            "args": [
+                "${workspaceFolder}/test",
+            ],
+            "internalConsoleOptions": "openOnSessionStart"
+        }
+    ]
+}
