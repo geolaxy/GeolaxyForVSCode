@@ -1,8 +1,3 @@
-[![](https://vsmarketplacebadge.apphb.com/version-short/njp-anderson.push.svg)](https://marketplace.visualstudio.com/items?itemName=njp-anderson.push)
-[![](https://vsmarketplacebadge.apphb.com/installs-short/njp-anderson.push.svg)](https://marketplace.visualstudio.com/items?itemName=njp-anderson.push)
-[![](https://vsmarketplacebadge.apphb.com/rating-short/njp-anderson.push.svg)](https://marketplace.visualstudio.com/items?itemName=njp-anderson.push)
-[![master build Status](https://travis-ci.org/njpanderson/push.svg?branch=master)](https://travis-ci.org/njpanderson/push)
-
 <p align="center" vspace="20">
   <img src="https://raw.github.com/geolaxy/GeolaxyForVSCode/master/img/icon-with-label.png" alt="Push - The user friendly uploader" width="829"/>
 </p>
