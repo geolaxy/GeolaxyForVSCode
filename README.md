@@ -4,7 +4,7 @@
 [![master build Status](https://travis-ci.org/njpanderson/push.svg?branch=master)](https://travis-ci.org/njpanderson/push)
 
 <p align="center" vspace="20">
-  <img src="https://raw.github.com/njpanderson/push/master/img/icon-with-label.png" alt="Push - The user friendly uploader" width="829"/>
+  <img src="https://raw.github.com/geolaxy/GeolaxyForVSCode/master/img/icon-with-label.png" alt="Push - The user friendly uploader" width="829"/>
 </p>
 
 > Push is a file transfer extension built with with the goal of being both easy to use and reliable.
