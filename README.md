@@ -7,10 +7,9 @@
   <img src="https://raw.github.com/geolaxy/GeolaxyForVSCode/master/img/icon-with-label.png" alt="Push - The user friendly uploader" width="829"/>
 </p>
 
-> Push is a file transfer extension built with with the goal of being both easy to use and reliable.
+> GeolaxyForVSCode is a application development extension built with the goal of developing Geolaxy's application both easy to use and reliable.
 
-> **NOTE — Push is no longer being actively maintained — use this extension completely at your own risk. It is provided without any warranty or guarantees that it will not wipe your local or remote files, or upload your latest vampire fan fiction to a production server.**
-> See [this issue[(https://github.com/njpanderson/push/issues/120) for more information
+> Based on [Push](https://github.com/njpanderson/push)
 
 ## Contents
 
